@@ -238,7 +238,7 @@ def scenario(scenario_details):
 
 # scenario_details = [5, 7, 1]      # scenario 2: 5 possible salts of 7 chars, using 1 salt
 
-scenario_details = [15, 8, 1]     # scenario 3: 15 possible salts of 7 chars, using 1 salt
+scenario_details = [15, 7, 1]     # scenario 3: 15 possible salts of 7 chars, using 1 salt
 
 # scenario_details = [50, 7, 1]     # scenario 4: 50 possible salts of 7 chars, using 1 salt
 
