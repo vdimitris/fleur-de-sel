@@ -2,6 +2,9 @@ from matplotlib import pyplot
 import numpy
 
 numpy.set_printoptions(suppress=True)
+
+# to load a results data set just change the following path+filename
+
 plot_results = numpy.loadtxt("results/scenario_1000000_15_1_7_1-rounds-100.txt")
 
 print(plot_results)
