@@ -8,7 +8,7 @@ print(plot_results)
 
 means = numpy.mean(plot_results, axis = 0)
 
-print("user time mean:", f'{means[1]:.7f}')
+print("system time mean:", f'{means[1]:.7f}')
 print("attacker time mean:", f'{means[2]:.7f}')
 
 pyplot.plot(plot_results[:,0], plot_results[:,1], marker="o", color = "blue", label = "system")
