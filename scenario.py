@@ -169,7 +169,7 @@ def brute_force_attacker(salts, salts_combo, password_hash_hex):
                     password_found = True
                     break
 
-    else:   # the Fleur Del Sel way
+    else:   # the Fleur De Sel way
 
         salt_combinations = list(itertools.combinations(salts, salts_combo))
 
